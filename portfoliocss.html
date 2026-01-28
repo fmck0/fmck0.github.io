@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>McKinney Portfolio CSS</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+ <style>
+   body {
+     background-color: white;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   h1, h2, h3, h4 {
+     color: rgb(48, 54, 219);
+   }
+   img {
+     border-radius: 10px;
+   }
+   .section-title {
+     color: rgb(14, 16, 59);
+     font-size: 32px;
+     text-align: center;
+     margin-bottom: 20px;
+   }
+   .blue-text {
+     color: rgb(48, 54, 219);
+   }
+ </style>
+</head>
+
+<body>
+
+<!-- NAVBAR (ROOT VERSION) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+ <a class="navbar-brand" href="index.html">McKinney</a>
+
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <div class="collapse navbar-collapse" id="navMenu">
+   <ul class="navbar-nav ml-auto">
+
+     <li class="nav-item">
+       <a class="nav-link" href="index.html">About Me</a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="Recipe/hobbies.html">Hobbies</a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="Recipe/countries.html">Countries</a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="Recipe/schedule.html">Schedule</a>
+     </li>
+
+     <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+         Recipe
+       </a>
+       <div class="dropdown-menu dropdown-menu-right">
+         <a class="dropdown-item" href="Recipe/recipe1.html">Recipe HTML</a>
+         <a class="dropdown-item" href="Recipe/recipe2.html">Recipe CSS</a>
+         <a class="dropdown-item" href="Recipe/recipe3.html">Recipe Bootstrap</a>
+       </div>
+     </li>
+
+   </ul>
+ </div>
+</nav>
+
+<div class="jumbotron text-center mt-4">
+ <h1 class="display-4">All About Me</h1>
+</div>
+
+<div class="container">
+
+ <div id="about" class="card p-4 mb-4 shadow-sm">
+   <div class="row">
+     <div class="col-md-4 text-center">
+       <img src="Recipe/media2/franco.png" alt="Franco" class="img-fluid mb-3" width="200">
+     </div>
+     <div class="col-md-8">
+       <h2 class="blue-text"><i>Franco McKinney</i></h2>
+       <h4>Age 14</h4>
+       <p>My name is Franco, and I am a 14-year-old boy. I am of Croatian/Bosnian nationality.</p>
+       <p>I have been playing football since I was about 6 years old.</p>
+       <p>My favorite football team is the Los Angeles Rams.</p>
+       <p>Despite being an athlete, I greatly enjoy fast food.</p>
+     </div>
+   </div>
+ </div>
+
+ <div id="hobbies" class="card p-4 mb-4 shadow-sm bg-light">
+   <h2 class="section-title">Hobbies</h2>
+
+   <ul class="list-group">
+     <li class="list-group-item">
+       <b><u>Football</u></b>
+       <h4>Colston Loveland Highlights</h4>
+       <video src="Recipe/media2/loveland.mp4" class="img-fluid" poster="Recipe/media2/loveland.webp" controls></video>
+       <p class="mt-2">
+         <a href="https://www.espn.com/nfl/draft/rounds/_/season/2025" target="_blank">2025 NFL Draft</a> |
+         <a href="https://www.espn.com/nfl/player/_/id/4723086/colston-loveland" target="_blank">Colston Loveland Player Page</a>
+       </p>
+       <audio controls>
+         <source src="Recipe/media2/draftloveland.mp3" type="audio/mpeg">
+       </audio>
+     </li>
+
+     <li class="list-group-item">
+       <b><u>Video Games</u></b>
+       <h4>My Favorite Game</h4>
+       <a href="https://www.ea.com/games/madden-nfl/madden-nfl-26" target="_blank">
+         <img src="Recipe/media2/header.jpg" alt="Madden NFL 26" class="img-fluid" width="300">
+       </a>
+     </li>
+
+     <li class="list-group-item">Eating</li>
+     <li class="list-group-item">Listening to music</li>
+     <li class="list-group-item">Watching TV shows</li>
+     <li class="list-group-item">Drawing</li>
+   </ul>
+ </div>
+
+ <div id="countries" class="card p-4 mb-4 shadow-sm">
+   <h2 class="section-title">Countries I Want to Visit</h2>
+
+   <ol class="list-group list-group-numbered">
+
+     <li class="list-group-item">
+       <b><u>Brazil</u></b>
+       <ul>
+         <li>São Paulo</li>
+         <li>Brasilia</li>
+         <li>Rio de Janeiro</li>
+       </ul>
+
+       <h4>Rio de Janeiro</h4>
+       <img src="Recipe/media2/riodejaneiro.jpg" class="img-fluid mb-3">
+
+       <h4>São Paulo</h4>
+       <img src="Recipe/media2/saopaulobrazil.jpg" class="img-fluid mb-3">
+
+       <p><b>Description:</b> Brazil is the largest country in South America and known for its culture, beaches, and cities.</p>
+     </li>
+
+     <li class="list-group-item">
+       <b><u>Puerto Rico</u></b>
+       <h4>San Juan</h4>
+       <img src="Recipe/media2/sanjuanpr.webp" class="img-fluid mb-3">
+       <p><b>Description:</b> Puerto Rico is a beautiful Caribbean island with rich culture and history.</p>
+     </li>
+
+     <li class="list-group-item">
+       <b><u>Italy</u></b>
+       <h4>Venice</h4>
+       <img src="Recipe/media2/veniceitaly.webp" class="img-fluid mb-3">
+       <p><b>Description:</b> Venice is built on 118 islands connected by over 400 bridges.</p>
+     </li>
+
+   </ol>
+ </div>
+
+ <div id="schedule" class="card p-4 mb-4 shadow-sm bg-light">
+   <h2 class="section-title">Weekly School Schedule</h2>
+
+   <table class="table table-bordered table-striped table-hover">
+     <thead class="thead-dark">
+       <tr>
+         <th>Period</th>
+         <th>Start</th>
+         <th>End</th>
+         <th>Room</th>
+         <th>Course</th>
+       </tr>
+     </thead>
+
+     <tbody>
+       <tr><td>1</td><td>8:00</td><td>8:50</td><td>235</td><td>Web Dev</td></tr>
+       <tr><td>2</td><td>8:55</td><td>9:45</td><td>259</td><td>English</td></tr>
+       <tr><td>3</td><td>9:50</td><td>10:40</td><td>360</td><td>Biology</td></tr>
+       <tr><td>4</td><td>10:45</td><td>11:35</td><td>315</td><td>Geometry</td></tr>
+       <tr><td>5</td><td>11:40</td><td>12:30</td><td>LR</td><td>Student Meal</td></tr>
+       <tr><td>6</td><td>12:35</td><td>1:25</td><td>328</td><td>Spanish</td></tr>
+       <tr><td>7</td><td>1:30</td><td>2:20</td><td>228</td><td>World Studies</td></tr>
+       <tr><td>8</td><td>2:25</td><td>3:15</td><td>218</td><td>PE/Health</td></tr>
+     </tbody>
+   </table>
+ </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

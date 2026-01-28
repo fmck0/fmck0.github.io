@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Recipe CSS - Franco McKinney</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, serif;
+      background: rgb(250, 250, 232);
+      color: rgb(48, 40, 22);
+    }
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      margin-top: 30px;
+      color: rgb(99, 40, 43);
+      font-weight: bold;
+    }
+    h2, h3 {
+      color: rgb(99, 40, 43);
+    }
+    body > * {
+      width: 900px;
+      margin: auto;
+      padding: 10px 20px;
+    }
+    p, ul, ol, a {
+      background: rgb(235, 229, 217);
+      padding: 15px;
+      border-radius: 10px;
+    }
+    ul li, ol li {
+      margin-bottom: 6px;
+    }
+    a {
+      display: inline-block;
+      font-weight: bold;
+      color: rgb(120, 80, 50);
+      text-decoration: none;
+      border-bottom: 2px solid;
+    }
+    a:hover {
+      color: rgb(129, 112, 65);
+      border-bottom: 2px solid rgb(115, 90, 21);
+    }
+    img {
+      border-radius: 15px;
+      margin: 20px;
+      width: 40%;
+    }
+    img:hover {
+      transform: scale(1.07);
+      box-shadow: 6px 6px 20px rgb(70, 40, 20);
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR (RECIPE VERSION) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="../index.html">McKinney</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">About Me</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="hobbies.html">Hobbies</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="countries.html">Countries</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="schedule.html">Schedule</a>
+      </li>
+
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+          Recipe
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="recipe1.html">Recipe HTML</a>
+          <a class="dropdown-item active" href="recipe2.html">Recipe CSS</a>
+          <a class="dropdown-item" href="recipe3.html">Recipe Bootstrap</a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<h1>Franco's Burek Recipe (CSS Version)</h1>
+
+<p><b>Burek</b> is a <u>pastry</u> that originated in Istanbul around <i>1500 CE</i> during the early Ottoman Empire.  
+From there, it spread across Europe and became a traditional dish in Bosnia, Serbia, and Croatia.</p>
+
+<h2><b><u><i>Description</i></u></b></h2>
+<p>
+Burek is a flaky pastry filled with minced meat, cheese, or spinach.  
+It is made by layering thin sheets of phyllo dough, adding filling, rolling or spiraling the dough,  
+and baking until golden brown.
+</p>
+
+<h3>Ingredients</h3>
+<ul>
+  <li>Phyllo dough</li>
+  <li>1 lb ground beef or lamb</li>
+  <li>1 medium onion (finely chopped)</li>
+  <li>2 tbsp oil or butter</li>
+  <li>Salt and pepper</li>
+  <li>Optional: paprika, parsley</li>
+</ul>
+
+<h3>Directions</h3>
+<ol>
+  <li>Sauté chopped onions in oil until soft.</li>
+  <li>Add ground meat and cook until browned.</li>
+  <li>Season with salt, pepper, and optional spices.</li>
+  <li>Layer phyllo sheets, brushing each with oil or butter.</li>
+  <li>Add filling and roll into a log or spiral.</li>
+  <li>Bake at 375°F for 30–40 minutes until golden.</li>
+</ol>
+
+<img src="media/burek.jpg" alt="Burek">
+<img src="media/bosnian_burek.jpg" alt="Bosnian Burek">
+
+<h2>Sources</h2>
+<a href="https://andrewcoppolino.com/blog/the-burek-has-a-long-world-history/" target="_blank">Burek History</a><br>
+<a href="https://balkanlunchbox.com/homemade-filo-mixed-pie/" target="_blank">General Balkan Burek</a><br>
+<a href="https://www.manusmenu.com/bosnian-burek?cn-reloaded=1" target="_blank">Bosnian Burek Recipe</a>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hobbies - Franco McKinney</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="../index.html">McKinney</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">About Me</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="hobbies.html">Hobbies</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="countries.html">Countries</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="schedule.html">Schedule</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+          Recipe
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="recipe1.html">Recipe HTML</a>
+          <a class="dropdown-item" href="recipe2.html">Recipe CSS</a>
+          <a class="dropdown-item" href="recipe3.html">Recipe Bootstrap</a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-4">
+
+  <div class="card p-4 shadow-sm mb-4">
+    <h2 class="text-center">My Hobbies</h2>
+    <p class="text-center">
+      These are the activities I enjoy the most. They help me stay active, creative, and balanced.
+    </p>
+  </div>
+
+  <div class="card p-4 shadow-sm mb-4">
+    <h4>Hobby List</h4>
+    <ul class="list-group mt-3">
+      <li class="list-group-item">Football</li>
+      <li class="list-group-item">Video Games</li>
+      <li class="list-group-item">Eating</li>
+      <li class="list-group-item">Listening to Music</li>
+      <li class="list-group-item">Watching TV Shows</li>
+      <li class="list-group-item">Drawing</li>
+    </ul>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-6 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h4>Football</h4>
+          <p>
+            Football has been a part of my life since I was six years old.
+          </p>
+
+          <h5>Colston Loveland Highlights</h5>
+          
+        <div style="max-width: 560px; margin: auto;">
+
+          <img id="lovelandPoster" 
+              src="media2/loveland.webp" 
+              class="img-fluid rounded mb-2" 
+              alt="Colston Loveland Poster" 
+              style="cursor:pointer; width:100%;">
+
+          <div id="lovelandVideo" style="display:none;">
+            <iframe
+              width="560"
+              height="315"
+              style="width:100%; border-radius: 10px;"
+              src="https://www.youtube.com/embed/owVRUAK7GJ0"
+              title="Colston Loveland Highlights"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+        </div>
+
+        <script>
+          document.getElementById("lovelandPoster").onclick = function() {
+            document.getElementById("lovelandPoster").style.display = "none";
+            document.getElementById("lovelandVideo").style.display = "block";
+          };
+        </script>
+
+
+        <script>
+          document.getElementById("lovelandPoster").onclick = function() {
+            document.getElementById("lovelandPoster").style.display = "none";
+            document.getElementById("lovelandVideo").style.display = "block";
+          };
+        </script>
+
+
+          <p class="mt-2">
+            <a href="https://www.espn.com/nfl/draft/rounds/_/season/2025" target="_blank">2025 NFL Draft</a> |
+            <a href="https://www.espn.com/nfl/player/_/id/4723086/colston-loveland" target="_blank">Colston Loveland Player Page</a>
+          </p>
+
+          <audio controls class="w-100">
+            <source src="media2/draftloveland.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h4>Video Games</h4>
+          <p>
+            Gaming is one of my favorite ways to relax.
+          </p>
+
+          <a href="https://www.ea.com/games/madden-nfl/madden-nfl-26" target="_blank">
+            <img src="media2/header.jpg" alt="Madden NFL 26" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h4>Eating</h4>
+          <p>
+            I love trying new foods, especially fast food and anything with bold flavors.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h4>Listening to Music</h4>
+          <p>
+            Music helps me stay focused, energized, and inspired.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h4>Watching TV Shows</h4>
+          <p>
+            TV shows are my go-to way to unwind after a long day.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h4>Drawing</h4>
+          <p>
+            Drawing lets me express my creativity.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
