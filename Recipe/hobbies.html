@@ -83,14 +83,40 @@
           </p>
 
           <h5>Colston Loveland Highlights</h5>
-          <div style="max-width: 560px; margin: auto;">
+          <div style="max-width: 560px; margin: auto; position: relative;">
 
   <!-- Poster Image -->
-  <img id="lovelandPoster" 
+  <div id="lovelandPoster" style="position: relative; cursor: pointer;">
+    <img 
       src="../media2/loveland.webp" 
       class="img-fluid rounded mb-2" 
       alt="Colston Loveland Poster" 
-      style="cursor:pointer; width:100%;">
+      style="width:100%; border-radius: 10px;">
+
+    <!-- Play Button Overlay -->
+    <div style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      background: rgba(0,0,0,0.6);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    ">
+      <div style="
+        width: 0;
+        height: 0;
+        border-left: 25px solid white;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        margin-left: 5px;
+      "></div>
+    </div>
+  </div>
 
   <!-- Hidden Video -->
   <div id="lovelandVideo" style="display:none;">
@@ -98,7 +124,7 @@
       width="560"
       height="315"
       style="width:100%; border-radius: 10px;"
-      src="https://www.youtube.com/embed/4ni5VpYneRo"
+      src="https://www.youtube.com/embed/4ni5VpYneRo?autoplay=1"
       title="Colston Loveland Highlights"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
